@@ -1,5 +1,5 @@
 $RG = "rg-cardops-demo"
-$LOC = "eastus"
+$LOC = "westus2"
 $APIM_NAME = "apim-cardops-demo"
 $AKS_NAME = "aks-cardops-demo"
 $COSMOS_ACCOUNT = "cosmos-cardops-demo"
