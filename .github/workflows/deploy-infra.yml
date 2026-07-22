@@ -10,6 +10,9 @@ on:
 jobs:
   destroy:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write # Required for requesting the OIDC JWT token
+      contents: read # Required for actions/checkout
 
     steps:
     # =====================================
